@@ -1,12 +1,24 @@
+:root{
+    --cor-fundo:#f4f1ea;
+    --cor-texto:#222222;
+    --cor-principal:#2c8338;
+    --cor-secundaria:#3244e2;
+    --cor-hover:#22e409;
+    --cor-superficie:#e7750b;
+    --cor-card:#f3d9fa;
+    --cor-legenda:#40d812;
+    --cor-clara:#ffffff;
+    --cor-rodape:#222222;
+}
 body {
-    background-color: #f4f1ea;
-    color: #222222;
+    background-color: var (--cor-fundo);
+    color: var (--cor-texto);
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #6b2d5c;
-    color: white;
+    background-color: var (--cor-principal);
+    color: var (--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -16,7 +28,7 @@ h1 {
 }
 
 h2 {
-    color:#6b2d5c;
+    color: var (var(--cor-principal))
 }
 
 p {
@@ -30,7 +42,7 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: var (--cor-superficie);
     margin:20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -52,10 +64,10 @@ figcaption {
 }
 
 .card{
-    background-color:#e8f5e9;
+    background-color: var (--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #27a70081;
+    border-left: var (--cor-principal);
     border-radius: 10px;
 }
 
@@ -63,22 +75,22 @@ figcaption {
     margin-top: 0;
 }
 footer {
-    background-color: #222222;
+    background-color: var (var(--cor-rodape))
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 button {
-    background-color:#6b2d5c;
-    color: white;
+    background-color: var (--cor-principal)
+    color: var (var(--cor-clara))
     border:none;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
 }
 button:hover {
-    background-color:#9b4d83;
+    background-color: var (--cor-hover)
 }
 .curtir {
 display:block
