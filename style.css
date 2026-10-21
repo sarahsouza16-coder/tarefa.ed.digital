@@ -11,14 +11,14 @@
     --cor-rodape:#222222;
 }
 body {
-    background-color: var (--cor-fundo);
-    color: var (--cor-texto);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
 }
 
 header {
     background-color: var (--cor-principal);
-    color: var (--cor-clara);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-    color: var (var(--cor-principal))
+    color: var(--cor-principal);
 }
 
 p {
@@ -93,7 +93,7 @@ button:hover {
     background-color: var (--cor-hover)
 }
 .curtir {
-display:block
+display:block;
 width: fit-content;
 margin: 20px auto;
 }
