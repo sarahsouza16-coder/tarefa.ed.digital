@@ -1,5 +1,5 @@
 :root{
-    --cor-fundo:#f8e80c;
+    --cor-fundo:#f3ec84;
     --cor-texto:#222222;
     --cor-principal:#2c8338;
     --cor-secundaria:#3244e2;
@@ -12,7 +12,7 @@
 }
 .tema-escuro{
     --cor-fundo: #e60505;
-    --cor-texto: #f5f5f5;
+    --cor-texto: #000000;
     --cor-principal: #78e962;
     --cor-superficie: #1e1e1e;
     --cor-card: #2b2530;
